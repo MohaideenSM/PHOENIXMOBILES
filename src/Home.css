@@ -1,0 +1,38 @@
+.our_service {
+    font-family: ui-monospace;
+    margin: 15px;
+}
+img.our_service_img {
+    height: 100px;
+    width: 100px;
+    background-color: #a58a8a73;
+    border-radius: 25px;
+}
+.our_service_one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.our_service_pics {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img.our_service_img {
+    height: 100px;
+    width: 100px;
+}
+    .our_service_heading {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        background-color: beige;
+        justify-content: center;
+        font-family: sans-serif;
+    }

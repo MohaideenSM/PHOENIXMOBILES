@@ -1,0 +1,9 @@
+.our_service_heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    font-family: sans-serif;
+}
