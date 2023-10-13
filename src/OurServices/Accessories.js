@@ -84,7 +84,7 @@ function Accessories() {
       ];
       return (
         <>
-            <div className="our_service_heading">Available Old Mobiles</div>
+            <div className="our_service_heading">Available Accessories </div>
 
           <div className="new-mobile-main-top">
             {NewMobilesDetails.map((NewMobilesDetails) => {
