@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div
-        style={{ display: "flex", flexDirection: "column", height: "100vh" }}
+        style={{ display: "flex", flexDirection: "column", height: "100vh",margin:" auto", maxWidth:"800px"}}
       >
         <Header />
         <div style={{ flex: "1", overflowY: "auto",    margin:" 15px"

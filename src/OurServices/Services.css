@@ -1,0 +1,25 @@
+.service-list {
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+
+}
+.listDot {
+    height: 10px;
+    width: 10px;
+    color: red;
+}
+.service-main-top {
+    padding: 20px;
+}
+.service-heading {
+    font-size: 24px;
+    font-family: math;
+    font-weight: 700;
+    color: cadetblue;
+    margin-bottom: 15px;
+    background-color: beige;
+}
+.service-main {
+    margin-bottom: 15px;
+}
