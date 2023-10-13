@@ -8,6 +8,7 @@ const Accessories = lazy(() => import("../src/OurServices/Accessories"));
 const Services = lazy(() => import("../src/OurServices/Services"));
 const About = lazy(() => import("../src/OurServices/About"));
 const ContactUs = lazy(() => import("../src/OurServices/ContactUs"));
+const MobileDetails = lazy(() => import("../src/OurServices/MobileDetails"));
 
 
 function RoutesPage() {
@@ -21,7 +22,7 @@ function RoutesPage() {
       <Route  path="/Services" element={<Services />} />
       <Route  path="/About" element={<About />} />
       <Route  path="/ContactUs" element={<ContactUs />} />
-
+      <Route  path="/MobileDetails" element={<MobileDetails />} />
   
 
     </Routes>
