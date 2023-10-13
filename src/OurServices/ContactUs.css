@@ -1,0 +1,55 @@
+.contact-logo {
+    font-size: 30px;
+    width: 25px;
+    color: blue;
+}
+.email-logo{
+    font-size: 30px;
+    width: 25px;
+    color: chocolate;
+}
+.location-logo{
+    font-size: 30px;
+    width: 25px;
+    color: #ff0000c7;
+
+}
+.lo{
+    font-size: 30px;
+
+}
+.contact-main {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+.contactUsMain {
+    margin: 15px;
+}
+.our_service_heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.contact-address-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.contact-address-left {
+    font-size: 14px;
+    font-family: math;
+    font-weight: 600;
+    width: 100px;
+    display: flex;
+
+}
+.lest_div {
+    width: 80px;
+}

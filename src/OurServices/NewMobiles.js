@@ -1,8 +1,11 @@
 import React from "react";
 import "../OurServices/NewMobiles.css";
 import image2 from "../image/vivo.webp";
+import { useNavigate } from "react-router-dom";
 
 function NewMobiles() {
+
+  const navigate=useNavigate()
   const NewMobilesDetails = [
     {
         Img: (
@@ -131,7 +134,7 @@ function NewMobiles() {
       <div className="new-mobile-main-top">
         {NewMobilesDetails.map((NewMobilesDetails) => {
           return (
-            <div className="new-mobile-main">
+            <div className="new-mobile-main" onClick={()=>navigate("/MobileDetails")}>
               <div className="new-mobile-img">{NewMobilesDetails.Img}</div>
               <div className="Model">{NewMobilesDetails.ModelName}</div>
             </div>
